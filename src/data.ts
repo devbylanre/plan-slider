@@ -1,0 +1,88 @@
+const plans = [
+  {
+    name: 'basic',
+    price: 15,
+    description: 'Basic plan with essential hosting features.',
+    features: [
+      '1 Website',
+      '10 GB Storage',
+      '100 GB Bandwidth',
+      'Free SSL Certificate',
+      '24/7 Support',
+    ],
+  },
+  {
+    name: 'pro',
+    price: 20,
+    description: 'Pro plan with additional resources and features.',
+    features: [
+      '5 Websites',
+      '20 GB Storage',
+      '200 GB Bandwidth',
+      'Free SSL Certificate',
+      'Daily Backups',
+      '24/7 Support',
+    ],
+  },
+  {
+    name: 'advanced',
+    price: 25,
+    description: 'Advanced plan for larger websites and applications.',
+    features: [
+      '10 Websites',
+      '50 GB Storage',
+      '500 GB Bandwidth',
+      'Free SSL Certificate',
+      'Daily Backups',
+      'Free Domain Name',
+      '24/7 Support',
+    ],
+  },
+  {
+    name: 'team',
+    price: 35,
+    description: 'Team plan for collaborative projects with enhanced features.',
+    features: [
+      'Unlimited Websites',
+      '100 GB Storage',
+      '1 TB Bandwidth',
+      'Free SSL Certificate',
+      'Daily Backups',
+      'Free Domain Name',
+      'Team Collaboration Tools',
+      'Priority Support',
+    ],
+  },
+  {
+    name: 'enterprise',
+    price: 40,
+    description: 'Enterprise plan with premium resources and support.',
+    features: [
+      'Unlimited Websites',
+      '200 GB Storage',
+      '2 TB Bandwidth',
+      'Free SSL Certificate',
+      'Daily Backups',
+      'Free Domain Name',
+      'Advanced Security Features',
+      '24/7 Priority Support',
+    ],
+  },
+  {
+    name: 'custom',
+    price: 50,
+    description: 'Custom plan tailored to your specific needs.',
+    features: [
+      'Custom Number of Websites',
+      'Custom Storage',
+      'Custom Bandwidth',
+      'Custom SSL Certificate',
+      'Custom Backup Frequency',
+      'Custom Domain Name',
+      'Custom Security Features',
+      '24/7 Priority Support',
+    ],
+  },
+];
+
+export default plans;
