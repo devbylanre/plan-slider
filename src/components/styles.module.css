@@ -1,3 +1,9 @@
+.cardHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .cardName {
     font-size: 2rem;
     color: #111;
