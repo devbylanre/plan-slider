@@ -12,13 +12,7 @@ type CardProps = {
 const Card = ({ name, price, description, features }: CardProps) => {
   return (
     <React.Fragment>
-      <div
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-        }}
-      >
+      <div className={Styles.cardHeader}>
         <h3 className={Styles.cardName}>{name}</h3>
         <p className={Styles.cardPrice}>${price}</p>
       </div>
